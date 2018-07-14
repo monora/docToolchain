@@ -12,11 +12,21 @@ The easiest way is to clone the repository without history and remove the `.git`
 ----
 git clone --recursive https://github.com/docToolchain/docToolchain.git <docToolchain home>
 rm -rf .git
+rm -f .gitmodules
 rm -rf resources/asciidoctor-reveal.js/.git
 rm -rf resources/reveal.js/.git
 ----
 
 `--recursive` option is required because the repository contains 2 submodules - `resources/asciidoctor-reveal.js` and `resources/reveal.js`.
+
+If you want to start controlling your copy of docToolchain:
+.git init again
+[source,bash]
+----
+git init .
+git add .
+git commit -m'Init private fork of https://github.com/docToolchain/docToolchain'
+----
 
 Another way is to download the zipped git repository and rename it:
 
