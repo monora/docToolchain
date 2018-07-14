@@ -51,7 +51,7 @@ Let's start with what you'll get when you use _docToolchain_...
 == Benefits of the docs-as-code Approach
 
 You want to write technical docs for your software project.
-So it is very likely that you already have the tools and proccesses to work with source code in place.
+So it is very likely that you already have the tools and processes to work with source code in place.
 Why not also use it for your docs?
 
 === Document Management System
